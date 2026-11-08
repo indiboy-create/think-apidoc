@@ -1,0 +1,46 @@
+{
+    "name": "youvision/think-apidoc",
+    "description": "基于注解生成 API 文档的 ThinkPHP 8 扩展，支持在线调试、多应用/多版本、Markdown 文档、代码生成器、接口分享等功能",
+    "type": "library",
+    "keywords": [
+        "thinkphp",
+        "thinkphp8",
+        "apidoc",
+        "api文档",
+        "接口文档",
+        "注解",
+        "自动生成api"
+    ],
+    "require": {
+        "php": ">=8.0",
+        "topthink/framework": "^8.0",
+        "doctrine/annotations": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YouVision\\ThinkApidoc\\": "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "YouVision\\ThinkApidoc\\providers\\ThinkPHP"
+            ],
+            "config": {
+                "apidoc": "config/apidoc.php"
+            }
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "youvision"
+        },
+        {
+            "name": "hg-code",
+            "email": "376401263@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
