@@ -1,3 +1,8 @@
+## ThinkPHP-PanGu - 盘古ThinkPHP开源索引!
+面向 ThinkPHP 的开源工程索引：组件、框架、服务与发布工具，按能力组织，持续整理。
+仓库地址：**<https://github.com/indiboy-create/ThinkPHP-PanGu/>**
+在线站点：**<https://indiboy-create.github.io/ThinkPHP-PanGu/>**
+
 # think-apidoc
 
 基于注解生成 API 文档的 ThinkPHP 8 扩展，移植自 [HGthecode/apidoc-php](https://github.com/HGthecode/apidoc-php)，仅保留 ThinkPHP 支持，并适配 ThinkPHP 8。

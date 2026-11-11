@@ -34,11 +34,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "youvision"
+            "name": "indiboy-create",
+            "homepage": "https://github.com/indiboy-create"
         },
         {
-            "name": "hg-code",
-            "email": "376401263@qq.com"
+            "name": "AI",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
